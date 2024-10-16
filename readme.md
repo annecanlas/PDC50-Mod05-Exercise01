@@ -2,4 +2,4 @@
 ![](Screenshots/Screenshot_MainPage.jpg)
 
 ### Database
-![](Screenshot/Screenshot_Database.jpg)
+![](Screenshots/Screenshot_Database.jpg)
