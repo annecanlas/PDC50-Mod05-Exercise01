@@ -8,47 +8,47 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Module07DataAccess
-build_property.ProjectDir = C:\PDC50_DataAccess_ANNE\
+build_property.ProjectDir = c:\PDC50_DataAccess_ANNE\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/PDC50_DataAccess_ANNE/App.xaml]
+[c:/PDC50_DataAccess_ANNE/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Module07DataAccess.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/PDC50_DataAccess_ANNE/AppShell.xaml]
+[c:/PDC50_DataAccess_ANNE/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Module07DataAccess.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/PDC50_DataAccess_ANNE/MainPage.xaml]
+[c:/PDC50_DataAccess_ANNE/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Module07DataAccess.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/PDC50_DataAccess_ANNE/Resources/Styles/Colors.xaml]
+[c:/PDC50_DataAccess_ANNE/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Module07DataAccess.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/PDC50_DataAccess_ANNE/Resources/Styles/Styles.xaml]
+[c:/PDC50_DataAccess_ANNE/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Module07DataAccess.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/PDC50_DataAccess_ANNE/View/EmployeePage.xaml]
+[c:/PDC50_DataAccess_ANNE/View/EmployeePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Module07DataAccess.View.EmployeePage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\EmployeePage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\EmployeePage.xaml
 
-[C:/PDC50_DataAccess_ANNE/View/ViewPersonal.xaml]
+[c:/PDC50_DataAccess_ANNE/View/ViewPersonal.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Module07DataAccess.View.ViewPersonal.xaml
 build_metadata.AdditionalFiles.TargetPath = View\ViewPersonal.xaml
