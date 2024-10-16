@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Module07DataAccess.View.EmployeePage"
+             Title="EmployeePage"
+             Shell.NavBarIsVisible="False">
+
+    <VerticalStackLayout
+        Padding="30,0"
+        Spacing="10">
+
+        <Label Text="EMPLOYEE LIST"
+               TextColor="#C71585"
+               FontSize="30"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"/>
+
+        <Button Text="Load Data"
+                Command="{Binding LoadDataCommand}"
+                WidthRequest="200"
+                BackgroundColor="#FFB2D6"
+                FontAttributes="Bold"
+                FontSize="14"/>
+
+        <ListView ItemsSource="{Binding EmployeeList}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout Orientation="Vertical">
+
+                                <Label Text="{Binding Name}"
+                                       FontSize="21"
+                                       TextColor="Salmon"
+                                       FontAttributes="Bold"/>
+
+                                <Label FontSize="14">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="Position: " TextColor="DarkSalmon"/>
+                                            <Span Text="{Binding Address}"
+                                                  TextColor="White"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+
+                                <Label FontSize="14">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="Email: " TextColor="DarkSalmon"/>
+                                            <Span Text="{Binding email}"
+                                                  TextColor="White"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+
+                                <Label FontSize="14">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="Department: " TextColor="DarkSalmon"/>
+                                            <Span Text="{Binding ContactNo}"
+                                                  TextColor="White"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+
+                                <BoxView Color="DarkSalmon" HeightRequest="1" HorizontalOptions="FillAndExpand" Margin="0, 20, 0, 20"/>
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+
+            </ListView.ItemTemplate>
+        </ListView>
+    </VerticalStackLayout>
+</ContentPage>
